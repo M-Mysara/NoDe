@@ -71,12 +71,14 @@ NoDe: OUTPUT_PATH/NoDe_Temp/****/NoDe_****.logfile
 (**** represents a random process ID).
 
 ## Testing
+
 Type:
 
 NoDe_Main.run _f ./sample.fasta _n ./sample.names _s ./sample.sfftxt _o OUTPUT_PATH
 
 It will produce in the output path a file containing the results i.e. two files named Sample.NoDe.fasta and Sample.NoDe.names
 The Test dataset is a part of the data published in (Schloss et al, 2012)  and is part of Project SRP002397 in NCBI short archive.
+
 -------
 
 ## Citing
