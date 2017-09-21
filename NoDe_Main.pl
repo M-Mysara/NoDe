@@ -141,7 +141,7 @@ else{
 system "cut -f1 ./temp_split/Results.precluster.names > ./temp_split/Results.precluster.accnos";
 system "cp $opts{f} ./temp_split/Results.precluster_.fasta";
 system "\.\/mothur \"\#get\.seqs(fasta=./temp_split/Results.precluster_.fasta,accnos=./temp_split/Results.precluster.accnos\)\" >> $logfile";
-unlink("./temp_split/Results.precluster_.fasta";
+unlink("./temp_split/Results.precluster_.fasta");
 mkdir('NoDe_Final');
 
 system "cp ./temp_split/Results.precluster_.pick.fasta ./NoDe_Final/Results.NoDe.fasta";
