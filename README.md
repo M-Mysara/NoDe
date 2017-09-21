@@ -3,7 +3,8 @@ A fast error-correction algorithm for pyrosequencing amplicon reads
 ## Mysara, M., Leys, N., et al., 2015. NoDe: a fast error-correction algorithm for pyrosequencing amplicon reads. BMC Bioinformatics, 16(1), p.88.
 ## Abstract
 The popularity of new sequencing technologies has led to an explosion of possible applications, including biodiversity studies. However each of these sequencing technologies suffer from sequencing errors originating from different factors.
-For 16S rRNA metagenomics studies the 454 pyrosequencing technology is already for many years one of the most frequently used platforms, but sequencing errors still leads to important data analysis issues (e.g. in OTU clustering and biodiversity estimation). The new error correction algorithm proposed in this work is trained to identify those positions in 454 sequencing reads that are likely to have an error, and subsequently clusters those error-prone reads with correct reads resulting in error-free consensus reads. The NoDe software can be downloaded here .
+For 16S rRNA metagenomics studies the 454 pyrosequencing technology is already for many years one of the most frequently used platforms, but sequencing errors still leads to important data analysis issues (e.g. in OTU clustering and biodiversity estimation). The new error correction algorithm proposed in this work is trained to identify those positions in 454 sequencing reads that are likely to have an error, and subsequently clusters those error-prone reads with correct reads resulting in error-free consensus reads. The NoDe software can be downloaded here:
+http://science.sckcen.be/en/Institutes/EHS/MCB/MIC/Bioinformatics/NoDe
 
 ## Installation Requirement
 Only Perl needs to be installed to be able to run NoDe. All other software packages that are required to run NoDe are included in the downloaded file (NoDe.run).
